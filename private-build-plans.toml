@@ -2,129 +2,127 @@
 
 # ABCDEFGHIJKLMNOPQRSTUVWXYZ
 # abcdefghijklmnopqrstuvwxyz
-# 0123456789 !@#$%&*()+-[]{}^~;,?
+# 0123456789 !@$%&*()+-[]{}^~;,?#
 
 [buildPlans.legetur]
 family = "Legetur"
-spacing = "normal"
+spacing = "fontconfig-mono"
 serifs = "sans"
-no-cv-ss = false
+noCvSs = true
 export-glyph-names = false
 
-  [buildPlans.legetur.variants]
-  inherits = "ss15"
+[buildPlans.legetur.variants.design]
+capital-a = "straight-serifless"
+capital-c = "serifless"
+capital-g = "toothed-serifless-hooked"
+capital-j = "flat-hook-serifed"
+capital-k = "symmetric-connected-serifless"
+capital-q = "crossing-curly-tailed"
+capital-s = "serifless"
+capital-u = "toothless-rounded-serifless"
+capital-w = "straight-serifless"
+a = "double-storey-serifless"
+b = "toothed-serifless"
+c = "serifless"
+d = "toothed-serifless"
+f = "flat-hook-serifless"
+g = "double-storey-open"
+i = "serifed"
+j = "flat-hook-serifed"
+k = "symmetric-connected-serifless"
+l = "serifed-semi-tailed"
+m = "serifless"
+q = "straight-serifless"
+r = "corner-hooked-serifed"
+s = "serifless"
+t = "flat-hook"
+u = "toothed-serifless"
+w = "straight-flat-top-serifless"
+y = "straight-turn-serifless"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-mu = "tailed-serifless"
+cyrl-capital-ka = "symmetric-connected-serifless"
+cyrl-ka = "symmetric-connected-serifless"
+cyrl-capital-ya = "straight-serifless"
+cyrl-ya = "straight-serifless"
+zero = "oval-tall-slashed-cutout"
+one = "base-long-top-serif"
+two = "straight-neck"
+three = "flat-top"
+four = "semi-open"
+five = "oblique-arched"
+six = "open-contour"
+seven = "bend-serifed"
+eight = "crossing-asymmetric"
+nine = "open-contour"
+diacritic-dot = "round"
+punctuation-dot = "round"
+asterisk = "penta-mid"
+caret = "medium"
+paren = "large-contour"
+brace = "curly-flat-boundary"
+number-sign = "upright"
+ampersand = "upper-open"
+at = "compact"
+dollar = "interrupted-cap"
+question = "smooth"
+cent = "bar-interrupted"
 
-    [buildPlans.legetur.variants.design]
-    capital-a = "straight-serifless"
-    capital-c = "unilateral-inward-serifed"
-    capital-g = "toothless-corner-inward-serifed-hooked"
-    capital-j = "flat-hook-serifed"
-    capital-k = "symmetric-connected-serifless"
-    capital-q = "crossing-curly-tailed"
-    capital-s = "unilateral-inward-serifed"
-    capital-u = "toothless-corner-serifless"
-    capital-w = "straight-serifless"
-    a = "double-storey-serifed"
-    b = "toothless-corner-serifless"
-    c = "unilateral-inward-serifed"
-    d = "toothed-serifless"
-    f = "flat-hook-serifless"
-    g = "double-storey-open"
-    j = "flat-hook-serifed"
-    k = "symmetric-connected-serifless"
-    l = "serifed-flat-tailed"
-    m = "serifless"
-    q = "earless-corner-tailed-serifless"
-    r = "corner-hooked-serifed"
-    s = "unilateral-inward-serifed"
-    t = "flat-hook"
-    u = "toothed-bottom-right-serifed"
-    w = "straight-flat-top-serifless"
-    y = "straight-turn-serifless"
-    long-s = "flat-hook-tailed"
-    eszet = "sulzbacher-descending-serifless"
-    lower-eth = "straight-bar"
-    lower-mu = "tailed-serifless"
-    cyrl-capital-ka = "symmetric-connected-serifless"
-    cyrl-ka = "symmetric-connected-serifless"
-    cyrl-capital-ya = "straight-serifless"
-    cyrl-ya = "straight-serifless"
-    zero = "oval-tall-slashed-cutout"
-    one = "base-long-top-serif"
-    two = "straight-neck"
-    three = "flat-top"
-    four = "semi-open"
-    five = "oblique-arched"
-    six = "open-contour"
-    seven = "straight-serifed"
-    eight = "crossing-asymmetric"
-    nine = "straight-bar"
-    diacritic-dot = "square"
-    punctuation-dot = "square"
-    asterisk = "penta-mid"
-    caret = "medium"
-    paren = "large-contour"
-    brace = "curly-flat-boundary"
-    number-sign = "upright"
-    ampersand = "upper-open"
-    at = "compact"
-    dollar = "interrupted-cap"
-    question = "corner"
-    cent = "bar-interrupted"
-
-    [buildPlans.legetur.variants.italic]
-    capital-a = "curly-serifless"
-    capital-c = "serifless"
-    capital-d = "more-rounded-serifless"
-    capital-g = "toothless-rounded-serifless-hooked"
-    capital-j = "descending-serifed"
-    capital-k = "curly-serifless"
-    capital-m = "slanted-sides-hanging-serifless"
-    capital-n = "asymmetric-serifless"
-    capital-q = "open-swash"
-    capital-r = "curly-serifless"
-    capital-s = "serifless"
-    capital-u = "toothless-rounded-serifless"
-    capital-v = "curly-serifless"
-    capital-w = "curly-serifless"
-    capital-x = "curly-serifless"
-    capital-y = "curly-serifless"
-    capital-z = "curly-serifless-with-crossbar"
-    a = "single-storey-earless-corner-tailed"
-    b = "toothless-corner-serifless"
-    c = "serifless"
-    d = "tailed-serifless"
-    f = "flat-hook-diagonal-tailed"
-    g = "single-storey-flat-hook-earless-corner"
-    h = "tailed-serifless"
-    i = "serifed-diagonal-tailed"
-    j = "diagonal-tailed-serifed"
-    k = "diagonal-tailed-cursive-serifless"
-    l = "serifed-diagonal-tailed"
-    m = "tailed-serifless"
-    n = "tailed-serifless"
-    p = "earless-corner-serifless"
-    q = "earless-corner-diagonal-tailed-serifless"
-    r = "serifed"
-    s = "serifless"
-    t = "diagonal-tailed-short-neck2"
-    u = "tailed-serifless"
-    v = "cursive-serifed"
-    w = "cursive-serifless"
-    x = "cursive"
-    y = "cursive-flat-hook-serifless"
-    z = "cursive"
-    lower-lambda = "curly-turn"
-    lower-chi = "curly-serifless"
-    cyrl-capital-ka = "curly-serifless"
-    cyrl-ka = "curly-serifless"
-    cyrl-em = "slanted-sides-flat-bottom-serifless"
-    cyrl-capital-ya = "curly-serifless"
-    cyrl-ya = "curly-serifless"
-    seven = "bend-serifless"
-    diacritic-dot = "round"
-    punctuation-dot = "round"
-    bar = "force-upright"
+[buildPlans.legetur.variants.italic]
+capital-a = "straight-serifless"
+capital-c = "serifless"
+capital-d = "more-rounded-serifless"
+capital-g = "toothed-serifless-hooked"
+capital-j = "serifed"
+capital-k = "symmetric-connected-serifless"
+capital-m = "hanging-serifless"
+capital-n = "standard-serifless"
+capital-q = "crossing-curly-tailed"
+capital-r = "straight-serifless"
+capital-s = "serifless"
+capital-u = "toothless-rounded-serifless"
+capital-v = "straight-serifless"
+capital-w = "straight-serifless"
+capital-x = "straight-serifless"
+capital-y = "straight-serifless"
+capital-z = "straight-serifless"
+a = "single-storey-serifless"
+b = "toothed-serifless"
+c = "serifless"
+d = "toothed-serifless"
+f = "flat-hook-diagonal-tailed"
+g = "single-storey-serifless"
+h = "straight-serifless"
+i = "serifed-diagonal-tailed"
+j = "diagonal-tailed-serifed"
+k = "diagonal-tailed-cursive-serifless"
+l = "serifed-diagonal-tailed"
+m = "serifless"
+n = "straight-serifless"
+p = "eared-serifless"
+q = "diagonal-tailed-serifless"
+r = "hookless-serifed"
+s = "serifless"
+t = "diagonal-tailed-short-neck2"
+u = "toothed-serifless"
+v = "cursive-serifed"
+w = "cursive-serifless"
+x = "cursive"
+y = "cursive-serifless"
+z = "cursive"
+lower-lambda = "curly-turn"
+lower-chi = "straight-serifless"
+cyrl-capital-ka = "symmetric-connected-serifless"
+cyrl-ka = "symmetric-connected-serifless"
+cyrl-em = "flat-bottom-serifless"
+cyrl-capital-ya = "straight-serifless"
+cyrl-ya = "straight-serifless"
+seven = "bend-serifless"
+diacritic-dot = "round"
+punctuation-dot = "round"
+bar = "force-upright"
 
 [buildPlans.legetur.weights.light]
 shape = 300
@@ -145,6 +143,11 @@ css = 500
 shape = 700
 menu = 700
 css = 700
+
+[buildPlans.legetur.widths.normal]
+shape = 600
+menu = 5
+css = "normal"
 
 [buildPlans.legetur.slopes.upright]
 angle = 0
@@ -175,12 +178,12 @@ css = 450
 #             If you decide to use custom widths you have to define all the widths you plan to use,
 #             otherwise they will not be built.
 
-[buildPlans.legetur.widths.normal]
-#shape = 595        # Unit Width, measured in 1/1000 em.
-# shape = 590        # Unit Width, measured in 1/1000 em.
-shape = 600
-menu  = 5          # Width grade for the font's names.
-css   = "normal"   # "font-stretch' property of webfont CSS.
+# [buildPlans.legetur.widths.normal]
+# #shape = 595        # Unit Width, measured in 1/1000 em.
+# # shape = 590        # Unit Width, measured in 1/1000 em.
+# shape = 600
+# menu  = 5          # Width grade for the font's names.
+# css   = "normal"   # "font-stretch' property of webfont CSS.
 
 # End width section
 ###################################################################################################
@@ -230,7 +233,7 @@ powerlineScaleX = 1
 powerlineShiftY = 0
 powerlineShiftX = 0
 # xHeight = 555
-xHeight = 537
+xHeight = 530
 
 # End metric override section
 ###################################################################################################
