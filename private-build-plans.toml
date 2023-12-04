@@ -6,10 +6,10 @@
 
 [buildPlans.legetur]
 family = "Legetur"
-spacing = "fontconfig-mono"
+spacing = "term"
 serifs = "sans"
 noCvSs = true
-export-glyph-names = false
+exportGlyphNames = false
 
 [buildPlans.legetur.variants.design]
 capital-a = "straight-serifless"
@@ -222,10 +222,12 @@ sequence = '<*>'
 [buildPlans.legetur.metricOverride]
 # cap = 720                   # !!!
 # ascender = 720              # !!!
-cap = 712                   # !!!
-ascender = 712              # !!!
+# cap = 712                   # !!!
+# ascender = 712              # !!!
+cap = 700
+ascender = 700
 #leading = 1150
-leading = 1135
+leading = 1130
 winMetricAscenderPad = 0
 winMetricDescenderPad = 0
 powerlineScaleY = 1
