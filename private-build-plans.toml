@@ -129,17 +129,17 @@ punctuation-dot = "round"
 bar = "force-upright"
 
 [buildPlans.legetur.weights.light]
-shape = 300
+shape = 350
 menu = 300
 css = 300
 
 [buildPlans.legetur.weights.regular]
-shape = 400
+shape = 450
 menu = 400
 css = 400
 
 [buildPlans.legetur.weights.medium]
-shape = 500
+shape = 550
 menu = 500
 css = 500
 
@@ -168,7 +168,7 @@ css = "italic"
 ###################################################################################################
 
 [buildPlans.legetur.weights.book]
-shape = 450
+shape = 500
 menu = 450
 css = 450
 
