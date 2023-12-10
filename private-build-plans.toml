@@ -228,8 +228,8 @@ sequence = '<*>'
 # ascender = 720              # !!!
 # cap = 712                   # !!!
 # ascender = 712              # !!!
-cap = 700
-ascender = 700
+cap = 690
+ascender = 690
 #leading = 1150
 leading = 1130
 winMetricAscenderPad = 0
@@ -239,7 +239,7 @@ powerlineScaleX = 1
 powerlineShiftY = 0
 powerlineShiftX = 0
 # xHeight = 555
-xHeight = 530
+xHeight = 540
 
 # End metric override section
 ###################################################################################################
